@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+/* font-family: "Outfit", serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+  --brown-800: hsl(14, 45%, 36%);
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+}
+
+body {
+  font-family: "Young Serif", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Card Image */
+
+.card-img {
+  width: 100%;
+}
+
+.card-img img {
+  border-radius: 10px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.card-content {
+  padding: 2em;
+}
+
+.recipe-des {
+  margin-bottom: 30px;
+}
+
+.recipe-des h1 {
+  font-size: 2.3em;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.recipe-des .description {
+  font-weight: 400;
+  font-family: "Outfit", serif;
+  color: var(--stone-600);
+  line-height: 28px;
+}
+
+.manual {
+  font-family: "Outfit", serif;
+  background-color: var(--rose-50);
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.manual .prep-time {
+  font-weight: 600;
+  position: relative;
+  font-size: 1.5em;
+  color: var(--rose-800);
+}
+
+.manual ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.7rem;
+  color: var(--stone-600);
+  padding: 10px 25px;
+  line-height: 28px;
+}
+
+.manual ul li::marker {
+  color: var(--rose-800);
+}
+
+.ingredients-section {
+  border-bottom: 1px solid var(--stone-150);
+  margin-bottom: 20px;
+}
+
+.ingredients-section .title {
+  color: var(--brown-800);
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.ingredients-section ul {
+  font-family: "Outfit", serif;
+  font-size: 0.8em;
+  padding: 20px 25px;
+  color: var(--stone-600);
+  line-height: 25px;
+}
+
+.instructions-section {
+  border-bottom: 1px solid var(--stone-150);
+  margin-bottom: 25px;
+}
+
+.instructions-section .title {
+  color: var(--brown-800);
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.instructions-section ol {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-family: "Outfit", serif;
+  font-size: 0.8em;
+  padding: 25px 25px;
+  color: var(--stone-600);
+  line-height: 25px;
+}
+
+li::marker {
+  color: var(--brown-800);
+  margin-right: 30px;
+  font-weight: 700;
+}
+
+.nutrition-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  color: var(--brown-800);
+}
+
+.nutrition-section .title {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.nutrition-section .table-des {
+  font-family: "Outfit", serif;
+  color: var(--stone-600);
+  font-weight: 400;
+  font-size: 1.05em;
+}
+
+.nutrition-section table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.row-1,
+.row-2,
+.row-3 {
+  border-bottom: 1px solid var(--stone-150);
+}
+
+td {
+  font-family: "Outfit", serif;
+  padding: 10px 30px;
+}
+
+.element {
+  color: var(--stone-600);
+}
+.value {
+  font-weight: 600;
+  color: var(--brown-800);
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: var(--stone-100);
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+  }
+
+  .card {
+    max-width: 550px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+  .card-content {
+    padding: 0;
+  }
+
+  .card-img {
+    margin-bottom: 15px;
+  }
+
+  .recipe-des h1 {
+    font-size: 2em;
+    margin-bottom: 15px;
+  }
+
+  .recipe-des .description {
+    font-size: 0.8em;
+    line-height: 20px;
+  }
+
+  .nutrition-section .table-des {
+    font-size: 0.8em;
+  }
+
+  .nutrition-section .title,
+  .instructions-section .title,
+  .ingredients-section .title {
+    font-size: 1.5em;
+  }
+
+  .manual .prep-time {
+    font-size: 1.1em;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
