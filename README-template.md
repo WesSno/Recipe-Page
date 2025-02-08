@@ -9,12 +9,11 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/WesSno/Recipe-Page)
+- Live Site URL: [Netlify](https://kwatia-recipe-page.netlify.app/)
 
 ## My process
 
@@ -27,5 +26,5 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [WesSno](https://github.com/WesSno)
+- Frontend Mentor - [@WesSno](https://www.frontendmentor.io/profile/WesSno)
