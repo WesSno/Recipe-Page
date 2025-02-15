@@ -179,6 +179,11 @@ td {
   color: var(--brown-800);
 }
 
+ul li,
+ol li {
+  padding-left: 10px;
+}
+
 @media only screen and (min-width: 768px) {
   body {
     background-color: var(--stone-100);
